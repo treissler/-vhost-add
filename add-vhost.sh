@@ -8,7 +8,7 @@ fi
 read -p "Please enter a virtual domain name:" domain
 echo "Add new virtual domain: $domain"
 
-read -p "Use this directory as a DocumentRoot (tupe yes/no): " tDir
+read -p "Use this directory as a DocumentRoot (type yes/no): " tDir
 case $tDir in
 "yes") myDir="$(pwd)";;
 "y") myDir="$(pwd)";;
